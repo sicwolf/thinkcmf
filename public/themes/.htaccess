@@ -1,4 +1,5 @@
 <FilesMatch "\.(?i:html|php|json)$">
-  Order allow,deny
-  Deny from all
+  #Order allow,deny
+  #Deny from all
+  Require all granted
 </FilesMatch>
